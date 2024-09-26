@@ -9,7 +9,7 @@
 ![Hardware_org](image.png)
     - Bus: electrical conduits that carry bytes of information between components. Typically designed to transfer fixed-size chunks of bytes known as words (mostly 4 bytes (32 bits) or 8 bytes)
     - I/O devices: help system connect to the outside world, this could includes keyboard, mouse, speaker, disk drive...
-    - I/O device is connected to the I/O bus by either a controlelr or adapter.
+    - I/O device is connected to the I/O bus by either a controller or adapter.
         - Controller: chipset in the device itself or stay in the motherboard
         - Adapter: a card that plugs into a slot on the motherboard
     - Main memory: a collection of dynamic random access memory chips
