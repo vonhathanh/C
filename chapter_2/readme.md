@@ -20,3 +20,7 @@
     ![endians](image.png)
 - Byte ordering becomes fixed once a particular OS is chosen (most chip can be confitured to operate as either big or little endian (bi-endian))
 - Both type of ordering are equally good, we only care about byte ordering when binary data are communicate over a network of machines
+## 2.2 Integer representation
+- Let assume an integer data type of w bits
+- Unsigned encoding: 
+## 2.4 Floating Point
