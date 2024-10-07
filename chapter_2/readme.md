@@ -22,5 +22,16 @@
 - Both type of ordering are equally good, we only care about byte ordering when binary data are communicate over a network of machines
 ## 2.2 Integer representation
 - Let assume an integer data type of w bits
-- Unsigned encoding: 
+- Unsigned encoding: B2U_w: {0, 1}^w -> {0...U_max_w}
+![alt text](image-1.png)
+- Two's complement encodings: the most significant bit of the word to have negative weight (sign bit)
+![alt text](image-2.png)
+- When the sign bit is set to 1, the represented value is negative, and when set to 0, the value is nonnegative
+- Both B2U_w and B2T_w are bijection
+- Conversion between unsigned and signed: we want to preserve any value that can be represented in both forms
+- Converting a negative value to unsigned might yield zero
+- Converting an unsigned value that is too large to be represented in two’s-complement form might yield TMax
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 ## 2.4 Floating Point
